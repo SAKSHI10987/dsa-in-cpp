@@ -1,0 +1,8 @@
+in arrays the address given to each byte
+and each byte has 8 bits
+ibit==1 transistor
+so 1 byte has 8 transistor
+
+arr address finding out formula=arr+idx*sizeofdatatype
+
+arr=starting location of arr
