@@ -1,15 +1,15 @@
 #include <iostream>
 using namespace std;
 int main(){
-    int arr[6]={1,2,3,4,5,6};
-    int i=0 ,j=5;
-    while(i<j){
+    int arr[]={1,2,3,4,5};
+    int i=0 ,j=4;
+    while(i<=j){
         swap(arr[i],arr[j]);
         i++;
         j--;
     }
     
-    for(int s=0;s<6;s++){
+    for(int s=0;s<5;s++){
         cout<<arr[s];
     }
     
