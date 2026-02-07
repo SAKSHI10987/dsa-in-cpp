@@ -3,7 +3,7 @@ using namespace std;
 
 int main(){
     int i=5,j=0;
-    int arr[]={1,2,3,4,5,6};
+    int arr[6]={1,2,3,4,5,6};
     int temp[6];
     while(i>=0){
         temp[j]=arr[i];
@@ -18,7 +18,7 @@ int main(){
     }
 
     for(int s=0;s<6;s++){
-        cout<<arr[s];
+        cout<<arr[s]<<" ";
     }
 
 
